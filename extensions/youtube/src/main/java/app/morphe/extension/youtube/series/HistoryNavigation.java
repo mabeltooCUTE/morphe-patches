@@ -62,7 +62,6 @@ public final class HistoryNavigation {
         String name = button.name();
         return name.equals("HOME")
                 || name.equals("SUBSCRIPTIONS")
-                || name.equals("NOTIFICATIONS")
                 || name.equals("LIBRARY");
     }
 
@@ -88,21 +87,12 @@ public final class HistoryNavigation {
                                         "FEsubscriptions",
                                         UiText.get("morphe_series_tracker_ui_subscriptions"),
                                         cairo ? 1155 : 408)));
-            if (!present.containsKey("notifications"))
-                present.put(
-                        "notifications",
-                        buildNative(
-                                NavigationProto.destination(
-                                        home,
-                                        "FEactivity",
-                                        UiText.get("morphe_series_tracker_ui_notifications"),
-                                        cairo ? 1156 : 355)));
         } catch (RuntimeException error) {
             Logger.printException(() -> "Cannot prepare five-tab navigation", error);
             return items;
         }
         List<Object> result = new ArrayList<>();
-        for (String kind : Arrays.asList("home", "subscriptions", "notifications")) {
+        for (String kind : Arrays.asList("home", "subscriptions")) {
             Object item = present.get(kind);
             if (item == null) return items;
             result.add(item);
