@@ -51,7 +51,7 @@ Second \"item\" text"</string>
   <string name="morphe_music_jam_show_qr">Mostrar QR</string>
   <string name="morphe_music_jam_done">Listo</string>
   <string name="morphe_music_jam_invite_title">Invitar a tu Jam</string>
-  <string name="morphe_music_jam_invite_message">Escanea para unirte y editar esta cola. Finalizar Jam revoca la invitación.</string>
+  <string name="morphe_music_jam_invite_message">Escanea para unirte y editar esta cola. Finalizar Jam revoca la invitación</string>
   <string name="morphe_music_jam_copy_link">Copiar enlace</string>
   <string name="morphe_music_jam_invitation_clip">Invitación de Jam</string>
   <string name="morphe_music_jam_reconnecting_toast">Jam se está reconectando; inténtalo de nuevo en breve</string>
@@ -64,9 +64,9 @@ Second \"item\" text"</string>
   <string name="morphe_music_jam_updating">Actualizando Jam…</string>
   <string name="morphe_music_jam_finding_host">Buscando tu host en Wi-Fi…</string>
   <string name="morphe_music_jam_waiting_people">Esperando a que se una gente</string>
-  <string name="morphe_music_jam_one_connected">%d persona conectada</string>
-  <string name="morphe_music_jam_many_connected">%d personas conectadas</string>
-  <string name="morphe_music_jam_code_expires">Introduce este código en un dispositivo cercano. Wi-Fi Aware funciona entre redes LAN distintas cuando es compatible. Caduca en %d minutos.</string>
+  <string name="morphe_music_jam_one_connected">%s persona conectada</string>
+  <string name="morphe_music_jam_many_connected">%s personas conectadas</string>
+  <string name="morphe_music_jam_code_expires">Introduce este código en un dispositivo cercano. Wi-Fi Aware funciona entre redes LAN distintas cuando es compatible. Caduca en %s minutos</string>
   <string name="morphe_music_jam_seek_to">¿Saltar a %s?</string>
   <string name="morphe_music_jam_edits_open">Edición abierta</string>
   <string name="morphe_music_jam_edits_locked">Edición bloqueada</string>
@@ -76,12 +76,12 @@ Second \"item\" text"</string>
   <string name="morphe_music_jam_unsupported">No compatible durante Jam</string>
   <string name="morphe_music_jam_cancelled">Unión cancelada</string>
   <string name="morphe_music_jam_reconnecting_host">Reconectando con tu host…</string>
-  <string name="morphe_music_jam_share_prompt">Comparte una cola. Deja que todos añadan canciones.</string>
+  <string name="morphe_music_jam_share_prompt">Comparte una cola. Deja que todos añadan canciones</string>
   <string name="morphe_music_jam_invite_people">Invitar a personas</string>
   <string name="morphe_music_jam_guest_edits">Los invitados pueden editar la cola</string>
   <string name="morphe_music_jam_end_jam">Finalizar Jam</string>
-  <string name="morphe_music_jam_participant_help">El host reproduce la música. Añade, mueve o elimina canciones directamente en la cola de YouTube Music.</string>
-  <string name="morphe_music_jam_joining_help">Mantén ambos dispositivos cerca. Puedes cancelar mientras buscamos al host.</string>
+  <string name="morphe_music_jam_participant_help">El host reproduce la música. Añade, mueve o elimina canciones directamente en la cola de YouTube Music</string>
+  <string name="morphe_music_jam_joining_help">Mantén ambos dispositivos cerca. Puedes cancelar mientras buscamos al host</string>
   <string name="morphe_music_jam_cancel_joining">Cancelar unión</string>
   <string name="morphe_music_jam_leave_jam">Salir de Jam</string>
   <string name="morphe_music_jam_start_jam">Iniciar Jam</string>
@@ -125,9 +125,9 @@ Second \"item\" text"</string>
   <string name="morphe_external_downloader_flyout_menu_summary">Utiliza el descargador externo seleccionado en lugar del menú flotante de descarga original</string>
   <string name="morphe_music_in_app_downloads_title">Descargar en la aplicación</string>
   <string name="morphe_music_in_app_downloads_summary">Descarga el audio dentro de YouTube Music en lugar de abrir la aplicación de descarga externa</string>
-  <string name="morphe_music_in_app_downloads_user_dialog_message">"Las canciones se guardan en el almacenamiento privado de la aplicación y se eliminan si se desinstala YouTube Music.
+  <string name="morphe_music_in_app_downloads_user_dialog_message">"Las pistas se guardan en el almacenamiento privado de la aplicación y se eliminan si YouTube Music se desinstala.
 
-Mientras esta opción esté activada, la pestaña Descargas muestra estas canciones en lugar de la biblioteca sin conexión de Music Premium. Al desactivarla, la pestaña vuelve a aparecer y las descargas Premium nunca se ven afectadas."</string>
+Mientras esté activado, la pestaña Descargas muestra estas pistas en lugar de la biblioteca sin conexión de Music Premium. Al desactivarlo se restaura la pestaña, y las descargas de Premium nunca se ven afectadas"</string>
   <string name="morphe_music_downloads_screen_title">Descargas</string>
   <string name="morphe_music_downloads_empty">"No hay descargas
 Las pistas descargadas aparecen aquí"</string>
@@ -445,7 +445,7 @@ Reproducción SABR (con 'Falsificar transmisiones de vídeo' desactivado)"</stri
   <string name="morphe_music_scrobbling_custom_regex_title">Limpieza de regex personalizada</string>
   <string name="morphe_music_scrobbling_custom_regex_summary">Introduce una expresión regular personalizada para eliminar texto adicional de los títulos de canciones, artistas o álbumes. Ejemplo: (?i)\\s*\\((clean|explicit)\\)</string>
   <string name="morphe_music_scrobbling_parse_title_title">Analizar artista y pista a partir del título</string>
-  <string name="morphe_music_scrobbling_parse_title_summary">Extrae el nombre del artista y de la pista a partir del título del vídeo utilizando el separador \" - \". Útil para contenido re-subido donde el nombre del canal puede usarse como artista.</string>
+  <string name="morphe_music_scrobbling_parse_title_summary">Extrae el nombre del artista y de la pista a partir del título del vídeo utilizando el separador \" - \". Útil para contenido re-subido donde el nombre del canal puede usarse como artista</string>
   <string name="morphe_music_scrobbling_guess_album_title">Rellenar álbum faltante</string>
   <string name="morphe_music_scrobbling_guess_album_summary">Cuando la música no incluye un álbum, lo busca en Last.fm para que tu scrobble esté completo</string>
   <!-- 'scrobbling' must be kept untranslated -->
@@ -599,7 +599,7 @@ Cookies requeridas: SID, HSID, SSID, SAPISID, __Secure-3PAPISID, __Secure-1PAPIS
   <string name="morphe_music_lyrics_ai_prompt_toast_saved">Prompt guardado</string>
   <string name="morphe_music_lyrics_ai_prompt_toast_reset">Prompt restablecido</string>
   <string name="morphe_music_lyrics_ai_config_toast_saved">Ajustes de IA guardados</string>
-  <string name="morphe_music_lyrics_ai_config_toast_invalid">No se pudo conectar con el punto de conexión de la IA. Comprueba tus ajustes.</string>
+  <string name="morphe_music_lyrics_ai_config_toast_invalid">No se pudo conectar con el punto de conexión de la IA. Comprueba tus ajustes</string>
   <string name="morphe_music_lyrics_ai_config_toast_reset">Ajustes de IA restablecidos</string>
   <string name="morphe_music_lyrics_ai_config_summary_configured">Modelo %1$s configurado</string>
   <string name="morphe_music_lyrics_ai_config_status_empty_url">La URL base no puede estar vacía</string>

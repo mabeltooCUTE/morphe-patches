@@ -64,9 +64,9 @@ Second \"item\" text"</string>
   <string name="morphe_music_jam_updating">잼을 업데이트하는 중…</string>
   <string name="morphe_music_jam_finding_host">Wi-Fi에서 호스트를 찾는 중…</string>
   <string name="morphe_music_jam_waiting_people">참여자를 기다리는 중</string>
-  <string name="morphe_music_jam_one_connected">%d 명 연결됨</string>
-  <string name="morphe_music_jam_many_connected">%d 명 연결됨</string>
-  <string name="morphe_music_jam_code_expires">이 코드를 근처 기기에 입력하세요. Wi-Fi Aware는 지원되는 경우 서로 다른 LAN에서도 작동합니다. %d 분 후에 만료됩니다</string>
+  <string name="morphe_music_jam_one_connected">%s 명 연결됨</string>
+  <string name="morphe_music_jam_many_connected">%s 명 연결됨</string>
+  <string name="morphe_music_jam_code_expires">이 코드를 근처 기기에 입력하세요. Wi-Fi Aware는 지원되는 경우 서로 다른 LAN에서도 작동합니다. %s 분 후에 만료됩니다</string>
   <string name="morphe_music_jam_seek_to">%s으로 이동할까요?</string>
   <string name="morphe_music_jam_edits_open">편집 열기</string>
   <string name="morphe_music_jam_edits_locked">편집 잠김</string>
@@ -81,7 +81,7 @@ Second \"item\" text"</string>
   <string name="morphe_music_jam_guest_edits">게스트는 재생목록을 편집할 수 있습니다</string>
   <string name="morphe_music_jam_end_jam">잼 종료</string>
   <string name="morphe_music_jam_participant_help">호스트가 음악을 재생합니다. YouTube Music 재생목록에서 노래를 직접 추가, 이동 또는 삭제할 수 있습니다</string>
-  <string name="morphe_music_jam_joining_help">두 기기를 가까이에 두세요. 호스트를 찾는 동안 취소할 수 있습니다.</string>
+  <string name="morphe_music_jam_joining_help">두 기기를 가까이에 두세요. 호스트를 찾는 동안 취소할 수 있습니다</string>
   <string name="morphe_music_jam_cancel_joining">참여 취소</string>
   <string name="morphe_music_jam_leave_jam">잼 나가기</string>
   <string name="morphe_music_jam_start_jam">잼 시작</string>
@@ -473,7 +473,7 @@ SABR 프로토콜을 사용하여 재생하는 경우 (동영상 스트림 속�
 3. 'media-user-token' 값을 복사합니다"</string>
   <string name="morphe_music_apple_music_token_toast_saved">Apple Music: media-user-token이 저장됨</string>
   <string name="morphe_music_apple_music_token_toast_cleared">Apple Music: media-user-token이 삭제됨</string>
-  <string name="morphe_music_apple_music_token_toast_invalid">Apple Music: 잘못된 media-user-token — 확인 후 다시 시도하세요</string>
+  <string name="morphe_music_apple_music_token_toast_invalid">Apple Music: 잘못된 media-user-token - 확인 후 다시 시도하세요</string>
   <string name="morphe_music_spotify_token_title">Spotify SpDc</string>
   <string name="morphe_music_spotify_token_dialog_instruction">"Spotify에서 sp_dc 쿠키를 붙여넣으세요
 
@@ -483,7 +483,7 @@ SABR 프로토콜을 사용하여 재생하는 경우 (동영상 스트림 속�
 3. 'sp_dc' 값을 복사합니다"</string>
   <string name="morphe_music_spotify_token_toast_saved">Spotify: sp_dc가 저장됨</string>
   <string name="morphe_music_spotify_token_toast_cleared">Spotify: sp_dc가 삭제됨</string>
-  <string name="morphe_music_spotify_token_toast_invalid">Spotify: 잘못된 sp_dc — 확인 후 다시 시도하세요</string>
+  <string name="morphe_music_spotify_token_toast_invalid">Spotify: 잘못된 sp_dc - 확인 후 다시 시도하세요</string>
   <string name="morphe_music_apple_token_optional_hint">Apple Music 토큰은 선택 사항입니다. 토큰이 없으면 Lyrically가 대체 서비스로 사용됩니다</string>
   <string name="morphe_music_deezer_arl_title">Deezer ARL</string>
   <string name="morphe_music_deezer_arl_dialog_instruction">"Deezer에서 arl 쿠키를 붙여넣으세요
@@ -494,14 +494,14 @@ SABR 프로토콜을 사용하여 재생하는 경우 (동영상 스트림 속�
 3. 'arl' 값을 복사합니다"</string>
   <string name="morphe_music_deezer_arl_toast_saved">Deezer: arl 저장됨</string>
   <string name="morphe_music_deezer_arl_toast_cleared">Deezer: arl 삭제됨</string>
-  <string name="morphe_music_deezer_arl_toast_invalid">Deezer: 잘못된 arl — 확인 후 다시 시도하세요</string>
+  <string name="morphe_music_deezer_arl_toast_invalid">Deezer: 잘못된 arl - 확인 후 다시 시도하세요</string>
   <string name="morphe_music_musixmatch_token_title">Musixmatch 토큰</string>
   <string name="morphe_music_musixmatch_token_dialog_instruction">본인 계정을 사용하려는 경우에만 토큰을 입력하세요. 토큰은 반드시 Musixmatch Android 앱에서 가져온 것이어야 합니다: musixmatch.com에서 복사한 토큰은 더 이상 사용되지 않는 데스크톱 클라이언트용이므로 API에서 이를 거부합니다</string>
   <string name="morphe_music_musixmatch_token_optional_hint">Musixmatch는 토큰 없이도 작동하므로 이 필드는 비워 둘 수 있습니다</string>
   <string name="morphe_music_musixmatch_token_dialog_hint">사용자 토큰</string>
   <string name="morphe_music_musixmatch_token_toast_saved">Musixmatch: 사용자 토큰이 저장됨</string>
   <string name="morphe_music_musixmatch_token_toast_cleared">Musixmatch: 사용자 토큰이 삭제됨</string>
-  <string name="morphe_music_musixmatch_token_toast_invalid">Musixmatch: 잘못된 사용자 토큰 — 확인 후 다시 시도하세요</string>
+  <string name="morphe_music_musixmatch_token_toast_invalid">Musixmatch: 잘못된 사용자 토큰 - 확인 후 다시 시도하세요</string>
   <string name="morphe_music_youtube_cookies_title">YouTube 쿠키</string>
   <string name="morphe_music_youtube_cookies_dialog_instruction">"YouTube에서 자막과 타임텍스트를 조회하려면 YouTube 쿠키를 붙여넣으세요
 
@@ -515,10 +515,10 @@ _ Secure-3PAPISID, _ Secure-1PAPISID,
 LOGIN_INFO"</string>
   <string name="morphe_music_youtube_cookies_toast_saved">YouTube: 쿠키가 저장됨</string>
   <string name="morphe_music_youtube_cookies_toast_cleared">YouTube: 쿠키가 삭제됨</string>
-  <string name="morphe_music_youtube_cookies_toast_invalid">YouTube: 잘못된 쿠키 — 확인 후 다시 시도하세요</string>
+  <string name="morphe_music_youtube_cookies_toast_invalid">YouTube: 잘못된 쿠키 - 확인 후 다시 시도하세요</string>
   <string name="morphe_music_lyrics_tap_to_seek_title">가사를 탭하여 구간 이동하기</string>
   <string name="morphe_music_lyrics_tap_to_seek_summary">가사의 한 줄을 탭하면 노래의 해당 부분으로 바로 이동합니다</string>
-  <string name="morphe_music_lyrics_show_section_title">섹션 태그 표시</string>
+  <string name="morphe_music_lyrics_show_section_title">섹션 태그 표시하기</string>
   <string name="morphe_music_lyrics_show_section_summary">가사의 각 새 섹션에 Verse 또는 Chorus와 같은 작은 태그를 표시합니다</string>
   <string name="morphe_music_lyrics_show_copy_button_title">복사 버튼 표시하기</string>
   <string name="morphe_music_lyrics_show_copy_button_summary">버튼을 탭하여 원본 가사를 일반 텍스트로 복사할 수 있고, 길게 탭하면 원본 가사 소스 파일을 다운로드에 저장할 수 있습니다</string>

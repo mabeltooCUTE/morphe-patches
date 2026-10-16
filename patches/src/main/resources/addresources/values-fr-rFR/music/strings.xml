@@ -51,7 +51,7 @@ Second \"item\" text"</string>
   <string name="morphe_music_jam_show_qr">Afficher le QR</string>
   <string name="morphe_music_jam_done">Terminé</string>
   <string name="morphe_music_jam_invite_title">Inviter à votre Jam</string>
-  <string name="morphe_music_jam_invite_message">Scannez pour rejoindre et modifier cette file d\'attente. Mettre fin au Jam révoque l\'invitation.</string>
+  <string name="morphe_music_jam_invite_message">Scannez pour rejoindre et modifier cette file d\'attente. Mettre fin au Jam révoque l\'invitation</string>
   <string name="morphe_music_jam_copy_link">Copier le lien</string>
   <string name="morphe_music_jam_invitation_clip">Invitation Jam</string>
   <string name="morphe_music_jam_reconnecting_toast">Jam se reconnecte ; réessayez dans quelques instants</string>
@@ -64,9 +64,9 @@ Second \"item\" text"</string>
   <string name="morphe_music_jam_updating">Mise à jour du Jam…</string>
   <string name="morphe_music_jam_finding_host">Recherche de votre hôte sur le Wi-Fi…</string>
   <string name="morphe_music_jam_waiting_people">En attente de personnes</string>
-  <string name="morphe_music_jam_one_connected">%d personne connectée</string>
-  <string name="morphe_music_jam_many_connected">%d personnes connectées</string>
-  <string name="morphe_music_jam_code_expires">Entrez ce code sur un appareil à proximité. Wi-Fi Aware fonctionne sur des réseaux locaux distincts lorsque cette fonctionnalité est prise en charge. Expire dans %d minutes.</string>
+  <string name="morphe_music_jam_one_connected">%s personne connectée</string>
+  <string name="morphe_music_jam_many_connected">%s personnes connectées</string>
+  <string name="morphe_music_jam_code_expires">Entrez ce code sur un appareil à proximité. Wi-Fi Aware fonctionne sur des réseaux locaux distincts lorsque cette fonctionnalité est prise en charge. Expire dans %s minutes</string>
   <string name="morphe_music_jam_seek_to">Rechercher jusqu\'à %s ?</string>
   <string name="morphe_music_jam_edits_open">Modifications ouvertes</string>
   <string name="morphe_music_jam_edits_locked">Modifications verrouillées</string>
@@ -76,12 +76,12 @@ Second \"item\" text"</string>
   <string name="morphe_music_jam_unsupported">Non pris en charge pendant le Jam</string>
   <string name="morphe_music_jam_cancelled">Participation annulée</string>
   <string name="morphe_music_jam_reconnecting_host">Reconnexion à votre hôte…</string>
-  <string name="morphe_music_jam_share_prompt">Partagez une file d\'attente. Laissez tout le monde ajouter des chansons.</string>
+  <string name="morphe_music_jam_share_prompt">Partagez une file d\'attente. Laissez tout le monde ajouter des chansons</string>
   <string name="morphe_music_jam_invite_people">Inviter des personnes</string>
   <string name="morphe_music_jam_guest_edits">Les invités peuvent modifier la file d\'attente</string>
   <string name="morphe_music_jam_end_jam">Mettre fin au Jam</string>
-  <string name="morphe_music_jam_participant_help">L\'hôte lit la musique. Ajoutez, déplacez ou supprimez directement des chansons dans la file d\'attente YouTube Music.</string>
-  <string name="morphe_music_jam_joining_help">Gardez les deux appareils à proximité. Vous pouvez annuler pendant que nous recherchons l\'hôte.</string>
+  <string name="morphe_music_jam_participant_help">L\'hôte lit la musique. Ajoutez, déplacez ou supprimez directement des chansons dans la file d\'attente YouTube Music</string>
+  <string name="morphe_music_jam_joining_help">Gardez les deux appareils à proximité. Vous pouvez annuler pendant que nous recherchons l\'hôte</string>
   <string name="morphe_music_jam_cancel_joining">Annuler la participation</string>
   <string name="morphe_music_jam_leave_jam">Quitter le Jam</string>
   <string name="morphe_music_jam_start_jam">Démarrer un Jam</string>
@@ -127,7 +127,7 @@ Second \"item\" text"</string>
   <string name="morphe_music_in_app_downloads_summary">Télécharge l\'audio directement dans YouTube Music au lieu d\'ouvrir l\'application de téléchargement externe</string>
   <string name="morphe_music_in_app_downloads_user_dialog_message">"Les morceaux sont enregistrés dans le stockage privé de l'application et sont supprimés si YouTube Music est désinstallé.
 
-Lorsque cette option est activée, l'onglet 'Téléchargés' affiche ces morceaux à la place de la bibliothèque hors connexion de Music Premium. La désactiver restaure l'onglet, et les téléchargements Premium ne sont jamais touchés."</string>
+Lorsque cette option est activée, l'onglet 'Téléchargés' affiche ces morceaux à la place de la bibliothèque hors connexion de Music Premium. La désactiver restaure l'onglet, et les téléchargements Premium ne sont jamais touchés"</string>
   <string name="morphe_music_downloads_screen_title">Téléchargements</string>
   <string name="morphe_music_downloads_empty">"Aucun téléchargement
 Les morceaux téléchargés apparaîtront ici"</string>
@@ -445,7 +445,7 @@ Lecture SABR (Falsifier les flux vidéo désactivés)"</string>
   <string name="morphe_music_scrobbling_custom_regex_title">Nettoyage par regex personnalisée</string>
   <string name="morphe_music_scrobbling_custom_regex_summary">Entrez une expression régulière personnalisée pour supprimer le texte supplémentaire des titres de chansons, des noms d\'artistes ou des albums. Exemple : (?i)\\s*\\((clean|explicit)\\)</string>
   <string name="morphe_music_scrobbling_parse_title_title">Analyser l\'artiste et le morceau à partir du titre</string>
-  <string name="morphe_music_scrobbling_parse_title_summary">Extrait le nom de l\'artiste et le nom du morceau à partir du titre de la vidéo en utilisant le séparateur \" - \". Utile pour les contenus réimportés, où le nom de la chaîne peut être utilisé comme nom de l\'artiste.</string>
+  <string name="morphe_music_scrobbling_parse_title_summary">Extrait le nom de l\'artiste et le nom du morceau à partir du titre de la vidéo en utilisant le séparateur \" - \". Utile pour les contenus réimportés, où le nom de la chaîne peut être utilisé comme nom de l\'artiste</string>
   <string name="morphe_music_scrobbling_guess_album_title">Renseigner l\'album manquant</string>
   <string name="morphe_music_scrobbling_guess_album_summary">Lorsque la musique ne contient pas d\'album, recherchez-la sur Last.fm pour compléter votre scrobble</string>
   <!-- 'scrobbling' must be kept untranslated -->
@@ -460,7 +460,7 @@ Pour que le scrobbling continue à se synchroniser pendant la lecture en arrièr
   <string name="morphe_music_lyrics_section_service_title">Service de paroles</string>
   <string name="morphe_music_lyrics_section_overlay_title">Overlay</string>
   <string name="morphe_music_lyrics_section_sync_title">Synchronisation</string>
-  <string name="morphe_music_lyrics_source_all_disabled">Tous les fournisseurs sont désactivés — paroles intégrées et paroles incorporées</string>
+  <string name="morphe_music_lyrics_source_all_disabled">Tous les fournisseurs sont désactivés - paroles intégrées et paroles incorporées</string>
   <string name="morphe_music_lyrics_source_reset_title">Réinitialiser l\'ordre des fournisseurs ?</string>
   <string name="morphe_music_lyrics_source_reset_message">Rétablir les fournisseurs dans l\'ordre de priorité par défaut</string>
   <string name="morphe_music_token_dialog_get_token">Obtenir un jeton</string>
@@ -473,7 +473,7 @@ Pour que le scrobbling continue à se synchroniser pendant la lecture en arrièr
 3. Copiez la valeur de \"media-user-token\""</string>
   <string name="morphe_music_apple_music_token_toast_saved">Apple Music : media-user-token enregistré</string>
   <string name="morphe_music_apple_music_token_toast_cleared">Apple Music : media-user-token supprimé</string>
-  <string name="morphe_music_apple_music_token_toast_invalid">Apple Music : media-user-token invalide — veuillez vérifier et réessayer</string>
+  <string name="morphe_music_apple_music_token_toast_invalid">Apple Music : media-user-token invalide - veuillez vérifier et réessayer</string>
   <string name="morphe_music_spotify_token_title">Spotify SpDc</string>
   <string name="morphe_music_spotify_token_dialog_instruction">"Collez le cookie sp_dc de Spotify.
 
@@ -483,7 +483,7 @@ Pour que le scrobbling continue à se synchroniser pendant la lecture en arrièr
 3. Copiez la valeur de \"sp_dc\""</string>
   <string name="morphe_music_spotify_token_toast_saved">Spotify : sp_dc enregistré</string>
   <string name="morphe_music_spotify_token_toast_cleared">Spotify : sp_dc supprimé</string>
-  <string name="morphe_music_spotify_token_toast_invalid">Spotify : sp_dc invalide — veuillez vérifier et réessayer</string>
+  <string name="morphe_music_spotify_token_toast_invalid">Spotify : sp_dc invalide - veuillez vérifier et réessayer</string>
   <string name="morphe_music_apple_token_optional_hint">Le jeton Apple Music est optionnel. Sans celui-ci, Lyrically sera utilisé comme solution de secours</string>
   <string name="morphe_music_deezer_arl_title">Deezer ARL</string>
   <string name="morphe_music_deezer_arl_dialog_instruction">"Collez le cookie arl de Deezer.
@@ -494,14 +494,14 @@ Pour que le scrobbling continue à se synchroniser pendant la lecture en arrièr
 3. Copiez la valeur de \"arl\""</string>
   <string name="morphe_music_deezer_arl_toast_saved">Deezer : arl enregistré</string>
   <string name="morphe_music_deezer_arl_toast_cleared">Deezer : arl supprimé</string>
-  <string name="morphe_music_deezer_arl_toast_invalid">Deezer : arl invalide — veuillez vérifier et réessayer</string>
+  <string name="morphe_music_deezer_arl_toast_invalid">Deezer : arl invalide - veuillez vérifier et réessayer</string>
   <string name="morphe_music_musixmatch_token_title">Jeton Musixmatch</string>
   <string name="morphe_music_musixmatch_token_dialog_instruction">Ajoutez un jeton uniquement si vous souhaitez utiliser votre propre compte. Il doit provenir de l\'application Android Musixmatch : les jetons copiés depuis musixmatch.com appartiennent à l\'ancien client de bureau qui a été retiré et l\'API les refuse</string>
   <string name="morphe_music_musixmatch_token_optional_hint">Musixmatch fonctionne sans jeton, ce champ peut donc rester vide</string>
   <string name="morphe_music_musixmatch_token_dialog_hint">Jeton utilisateur</string>
   <string name="morphe_music_musixmatch_token_toast_saved">Musixmatch : jeton utilisateur enregistré</string>
   <string name="morphe_music_musixmatch_token_toast_cleared">Musixmatch : jeton utilisateur supprimé</string>
-  <string name="morphe_music_musixmatch_token_toast_invalid">Musixmatch : jeton utilisateur invalide — veuillez vérifier et réessayer</string>
+  <string name="morphe_music_musixmatch_token_toast_invalid">Musixmatch : jeton utilisateur invalide - veuillez vérifier et réessayer</string>
   <string name="morphe_music_youtube_cookies_title">Cookies YouTube</string>
   <string name="morphe_music_youtube_cookies_dialog_instruction">"Collez vos cookies YouTube pour récupérer les sous-titres et le texte synchronisé de YouTube.
 
@@ -513,7 +513,7 @@ Pour que le scrobbling continue à se synchroniser pendant la lecture en arrièr
 Cookies nécessaires : SID, HSID, SSID, SAPISID, __Secure-3PAPISID, __Secure-1PAPISID, LOGIN_INFO"</string>
   <string name="morphe_music_youtube_cookies_toast_saved">YouTube : cookies enregistrés</string>
   <string name="morphe_music_youtube_cookies_toast_cleared">YouTube : cookies supprimés</string>
-  <string name="morphe_music_youtube_cookies_toast_invalid">YouTube : cookies invalides — veuillez vérifier et réessayer</string>
+  <string name="morphe_music_youtube_cookies_toast_invalid">YouTube : cookies invalides - veuillez vérifier et réessayer</string>
   <string name="morphe_music_lyrics_tap_to_seek_title">Appuyez sur une ligne pour aller à ce moment</string>
   <string name="morphe_music_lyrics_tap_to_seek_summary">Appuyez sur une ligne pour aller directement à ce moment de la chanson</string>
   <string name="morphe_music_lyrics_show_section_title">Afficher les étiquettes de section</string>
@@ -576,7 +576,7 @@ Cookies nécessaires : SID, HSID, SSID, SAPISID, __Secure-3PAPISID, __Secure-1PA
   <string name="morphe_music_lyrics_refreshing">Actualisation</string>
   <string name="morphe_music_lyrics_refreshed">Actualisé</string>
   <string name="morphe_music_lyrics_about_summary">"Les paroles sont associées au titre et à l'artiste, des métadonnées inhabituelles peuvent ne rien trouver ou trouver la mauvaise version. Utilisez 'Actualiser' pour changer de version. Les fournisseurs marqués d'un \* nécessitent un jeton. Tous les fournisseurs activés ne sont pas toujours interrogés dans votre ordre, mais répondent en fonction de leur vitesse"</string>
-  <string name="morphe_music_lyrics_source_advice_summary">Activez uniquement les fournisseurs que vous utilisez, ou conservez les paramètres par défaut — des requêtes constantes peuvent submerger les petits sites communautaires de paroles</string>
+  <string name="morphe_music_lyrics_source_advice_summary">Activez uniquement les fournisseurs que vous utilisez, ou conservez les paramètres par défaut - des requêtes constantes peuvent submerger les petits sites communautaires de paroles</string>
   <string name="morphe_music_lyrics_hide_info_title">Masquer la ligne de crédit</string>
   <string name="morphe_music_lyrics_hide_info_summary">Masquer la ligne de crédit affichée sous les paroles</string>
   <string name="morphe_music_lyrics_swap_trans_roma_title">Inverser la traduction et la romanisation</string>
@@ -589,7 +589,7 @@ Cookies nécessaires : SID, HSID, SSID, SAPISID, __Secure-3PAPISID, __Secure-1PA
   <string name="morphe_music_lyrics_use_ai_section_title">Section par IA</string>
   <string name="morphe_music_lyrics_use_ai_section_summary">Utilisé uniquement lorsque le fournisseur ne fournit pas d\'étiquettes de section, comme \'Refrain\' ou \'Couplet\', que votre modèle compatible avec OpenAI détecte ensuite</string>
   <string name="morphe_music_lyrics_ai_config_dialog_title">Paramètres de l\'IA</string>
-  <string name="morphe_music_lyrics_ai_config_dialog_instruction">Configurez le point de terminaison de l\'API compatible avec OpenAI pour la traduction, la romanisation et l\'identification de section.</string>
+  <string name="morphe_music_lyrics_ai_config_dialog_instruction">Configurez le point de terminaison de l\'API compatible avec OpenAI pour la traduction, la romanisation et l\'identification de section</string>
   <string name="morphe_music_lyrics_ai_config_base_url_hint">URL du point de terminaison de l\'API (par ex. https://text.pollinations.ai/openai)</string>
   <string name="morphe_music_lyrics_ai_config_api_token_hint">Clé d\'API (laissez vide pour un accès anonyme)</string>
   <string name="morphe_music_lyrics_ai_config_model_hint">Nom du modèle (par ex. openai-fast, gpt-4o-mini)</string>
@@ -599,7 +599,7 @@ Cookies nécessaires : SID, HSID, SSID, SAPISID, __Secure-3PAPISID, __Secure-1PA
   <string name="morphe_music_lyrics_ai_prompt_toast_saved">Prompt enregistré</string>
   <string name="morphe_music_lyrics_ai_prompt_toast_reset">Prompt réinitialisé</string>
   <string name="morphe_music_lyrics_ai_config_toast_saved">Paramètres de l\'IA enregistrés</string>
-  <string name="morphe_music_lyrics_ai_config_toast_invalid">Impossible de se connecter au point de terminaison de l\'IA. Veuillez vérifier vos paramètres.</string>
+  <string name="morphe_music_lyrics_ai_config_toast_invalid">Impossible de se connecter au point de terminaison de l\'IA. Veuillez vérifier vos paramètres</string>
   <string name="morphe_music_lyrics_ai_config_toast_reset">Paramètres de l\'IA réinitialisés</string>
   <string name="morphe_music_lyrics_ai_config_summary_configured">Modèle %1$s configuré</string>
   <string name="morphe_music_lyrics_ai_config_status_empty_url">L\'URL de base ne peut pas être vide</string>

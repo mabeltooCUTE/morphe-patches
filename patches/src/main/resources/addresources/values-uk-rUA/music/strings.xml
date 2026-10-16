@@ -51,7 +51,7 @@ Second \"item\" text"</string>
   <string name="morphe_music_jam_show_qr">Показати QR-код</string>
   <string name="morphe_music_jam_done">Готово</string>
   <string name="morphe_music_jam_invite_title">Запросити до вашого Jam</string>
-  <string name="morphe_music_jam_invite_message">Скануйте, щоб приєднатися та редагувати цю чергу. Завершення Jam скасовує запрошення.</string>
+  <string name="morphe_music_jam_invite_message">Скануйте, щоб приєднатися та редагувати цю чергу. Завершення Jam скасовує запрошення</string>
   <string name="morphe_music_jam_copy_link">Скопіювати посилання</string>
   <string name="morphe_music_jam_invitation_clip">Запрошення до Jam</string>
   <string name="morphe_music_jam_reconnecting_toast">Jam перепідключається; спробуйте ще раз незабаром</string>
@@ -64,9 +64,9 @@ Second \"item\" text"</string>
   <string name="morphe_music_jam_updating">Оновлення Jam…</string>
   <string name="morphe_music_jam_finding_host">Пошук вашого ведучого в мережі Wi-Fi…</string>
   <string name="morphe_music_jam_waiting_people">Очікування учасників</string>
-  <string name="morphe_music_jam_one_connected">%d людина приєдналася</string>
-  <string name="morphe_music_jam_many_connected">%d людей приєдналося</string>
-  <string name="morphe_music_jam_code_expires">Введіть цей код на пристрої поблизу. Wi-Fi Aware працює між різними локальними мережами, якщо підтримується. Термін дії спливає через %d хв.</string>
+  <string name="morphe_music_jam_one_connected">%s людина приєдналася</string>
+  <string name="morphe_music_jam_many_connected">%s людей приєдналося</string>
+  <string name="morphe_music_jam_code_expires">Введіть цей код на пристрої поблизу. Wi-Fi Aware працює між різними локальними мережами, якщо підтримується. Термін дії спливає через %s хв</string>
   <string name="morphe_music_jam_seek_to">Перемотати до %s?</string>
   <string name="morphe_music_jam_edits_open">Редагування відкрито</string>
   <string name="morphe_music_jam_edits_locked">Редагування заблоковано</string>
@@ -76,12 +76,12 @@ Second \"item\" text"</string>
   <string name="morphe_music_jam_unsupported">Не підтримується під час Jam</string>
   <string name="morphe_music_jam_cancelled">Приєднання скасовано</string>
   <string name="morphe_music_jam_reconnecting_host">Повторне підключення до вашого ведучого…</string>
-  <string name="morphe_music_jam_share_prompt">Поділіться чергою. Дозвольте всім додавати пісні.</string>
+  <string name="morphe_music_jam_share_prompt">Поділіться чергою. Дозвольте всім додавати пісні</string>
   <string name="morphe_music_jam_invite_people">Запросити людей</string>
   <string name="morphe_music_jam_guest_edits">Гості можуть редагувати чергу</string>
   <string name="morphe_music_jam_end_jam">Завершити Jam</string>
-  <string name="morphe_music_jam_participant_help">Ведучий відтворює музику. Додавайте, переміщуйте або видаляйте пісні безпосередньо в черзі YouTube Music.</string>
-  <string name="morphe_music_jam_joining_help">Тримайте обидва пристрої поруч. Ви можете скасувати, поки ми шукаємо ведучого.</string>
+  <string name="morphe_music_jam_participant_help">Ведучий відтворює музику. Додавайте, переміщуйте або видаляйте пісні безпосередньо в черзі YouTube Music</string>
+  <string name="morphe_music_jam_joining_help">Тримайте обидва пристрої поруч. Ви можете скасувати, поки ми шукаємо ведучого</string>
   <string name="morphe_music_jam_cancel_joining">Скасувати приєднання</string>
   <string name="morphe_music_jam_leave_jam">Покинути Jam</string>
   <string name="morphe_music_jam_start_jam">Почати Jam</string>
@@ -127,7 +127,7 @@ Second \"item\" text"</string>
   <string name="morphe_music_in_app_downloads_summary">Завантажує аудіо всередині YouTube Music замість відкриття зовнішнього застосунку завантажувача</string>
   <string name="morphe_music_in_app_downloads_user_dialog_message">"Треки зберігаються в приватному сховищі застосунку і видаляються, якщо YouTube Music буде видалено.
 
-Поки цю функцію ввімкнено, у вкладці \"Завантаження\" відображаються саме ці треки замість офлайн-бібліотеки Music Premium. Вимкнення функції відновлює вкладку, а завантаження Premium залишаються незмінними."</string>
+Поки цю функцію ввімкнено, у вкладці \"Завантаження\" відображаються саме ці треки замість офлайн-бібліотеки Music Premium. Вимкнення функції відновлює вкладку, а завантаження Premium залишаються незмінними"</string>
   <string name="morphe_music_downloads_screen_title">Завантаження</string>
   <string name="morphe_music_downloads_empty">"Немає завантажень
 Завантажені треки з'являються тут"</string>
@@ -445,7 +445,7 @@ Second \"item\" text"</string>
   <string name="morphe_music_scrobbling_custom_regex_title">Власне очищення за допомогою регулярних виразів</string>
   <string name="morphe_music_scrobbling_custom_regex_summary">Введіть власний регулярний вираз для видалення додаткового тексту з назв треків, виконавців або альбомів. Приклад: (?i)\\s*\\((clean|explicit)\\)</string>
   <string name="morphe_music_scrobbling_parse_title_title">Визначати виконавця та трек із назви</string>
-  <string name="morphe_music_scrobbling_parse_title_summary">Визначає виконавця та назву треку з заголовка відео за допомогою роздільника \" - \". Корисно для перезавантаженого контенту, де назва каналу може використовуватись як виконавець.</string>
+  <string name="morphe_music_scrobbling_parse_title_summary">Визначає виконавця та назву треку з заголовка відео за допомогою роздільника \" - \". Корисно для перезавантаженого контенту, де назва каналу може використовуватись як виконавець</string>
   <string name="morphe_music_scrobbling_guess_album_title">Заповнити відсутній альбом</string>
   <string name="morphe_music_scrobbling_guess_album_summary">Якщо музика не містить альбому, шукати його на Last.fm, щоб scrobble був повним</string>
   <!-- 'scrobbling' must be kept untranslated -->
@@ -599,7 +599,7 @@ Second \"item\" text"</string>
   <string name="morphe_music_lyrics_ai_prompt_toast_saved">Запит збережено</string>
   <string name="morphe_music_lyrics_ai_prompt_toast_reset">Запит скинуто</string>
   <string name="morphe_music_lyrics_ai_config_toast_saved">Налаштування AI збережено</string>
-  <string name="morphe_music_lyrics_ai_config_toast_invalid">Не вдалося підключитися до кінцевої точки AI. Будь ласка, перевірте налаштування.</string>
+  <string name="morphe_music_lyrics_ai_config_toast_invalid">Не вдалося підключитися до кінцевої точки AI. Будь ласка, перевірте налаштування</string>
   <string name="morphe_music_lyrics_ai_config_toast_reset">Налаштування AI скинуто</string>
   <string name="morphe_music_lyrics_ai_config_summary_configured">Модель %1$s налаштовано</string>
   <string name="morphe_music_lyrics_ai_config_status_empty_url">Базова URL-адреса не може бути порожньою</string>

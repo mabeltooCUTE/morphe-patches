@@ -51,7 +51,7 @@ Second \"item\" text"</string>
   <string name="morphe_music_jam_show_qr">Zobrazit QR kód</string>
   <string name="morphe_music_jam_done">Hotovo</string>
   <string name="morphe_music_jam_invite_title">Pozvat do svého Jamu</string>
-  <string name="morphe_music_jam_invite_message">Naskenujte pro připojení a úpravu této fronty. Ukončení Jamu pozvánku odvolá.</string>
+  <string name="morphe_music_jam_invite_message">Naskenujte pro připojení a úpravu této fronty. Ukončením Jamu se pozvání zruší</string>
   <string name="morphe_music_jam_copy_link">Kopírovat odkaz</string>
   <string name="morphe_music_jam_invitation_clip">Pozvánka do Jamu</string>
   <string name="morphe_music_jam_reconnecting_toast">Jam se znovu připojuje; zkuste to za chvíli.</string>
@@ -64,9 +64,9 @@ Second \"item\" text"</string>
   <string name="morphe_music_jam_updating">Aktualizace Jamu…</string>
   <string name="morphe_music_jam_finding_host">Hledání vašeho hostitele přes Wi-Fi…</string>
   <string name="morphe_music_jam_waiting_people">Čekání na lidi</string>
-  <string name="morphe_music_jam_one_connected">Připojena %d osoba</string>
-  <string name="morphe_music_jam_many_connected">Připojeno %d lidí</string>
-  <string name="morphe_music_jam_code_expires">Zadejte tento kód na zařízení v okolí. Wi-Fi Aware v případě podpory funguje i mezi oddělenými LAN. Platnost vyprší za %d minut.</string>
+  <string name="morphe_music_jam_one_connected">%s osoba připojena</string>
+  <string name="morphe_music_jam_many_connected">%s osob připojeno</string>
+  <string name="morphe_music_jam_code_expires">Zadejte tento kód na zařízení v blízkosti. Wi-Fi Aware funguje přes oddělené sítě LAN, pokud je podporováno. Vyprší za %s minut</string>
   <string name="morphe_music_jam_seek_to">Přetočit na %s?</string>
   <string name="morphe_music_jam_edits_open">Úpravy povoleny</string>
   <string name="morphe_music_jam_edits_locked">Úpravy uzamčeny</string>
@@ -76,12 +76,12 @@ Second \"item\" text"</string>
   <string name="morphe_music_jam_unsupported">Během Jamu není podporováno</string>
   <string name="morphe_music_jam_cancelled">Připojování zrušeno</string>
   <string name="morphe_music_jam_reconnecting_host">Opětovné připojování k vašemu hostiteli…</string>
-  <string name="morphe_music_jam_share_prompt">Sdílejte frontu. Nechte všechny přidávat skladby.</string>
+  <string name="morphe_music_jam_share_prompt">Sdílejte frontu. Nechte všechny přidávat písně</string>
   <string name="morphe_music_jam_invite_people">Pozvat lidi</string>
   <string name="morphe_music_jam_guest_edits">Hosté mohou upravovat frontu.</string>
   <string name="morphe_music_jam_end_jam">Ukončit Jam</string>
-  <string name="morphe_music_jam_participant_help">Hudbu přehrává hostitel. Přidávejte, přesouvejte nebo odebírejte skladby přímo ve frontě YouTube Music.</string>
-  <string name="morphe_music_jam_joining_help">Mějte obě zařízení blízko u sebe. Během hledání hostitele můžete připojování zrušit.</string>
+  <string name="morphe_music_jam_participant_help">Host hraje hudbu. Přidejte, přesuňte nebo odeberte písně přímo ve frontě YouTube Music</string>
+  <string name="morphe_music_jam_joining_help">Mějte obě zařízení blízko sebe. Můžete zrušit, zatímco hledáme hostitele</string>
   <string name="morphe_music_jam_cancel_joining">Zrušit připojování</string>
   <string name="morphe_music_jam_leave_jam">Opustit Jam</string>
   <string name="morphe_music_jam_start_jam">Zahájit Jam</string>
@@ -125,9 +125,9 @@ Second \"item\" text"</string>
   <string name="morphe_external_downloader_flyout_menu_summary">Používá vámi zvolený externí downloader místo výchozí nabídky Stáhnout</string>
   <string name="morphe_music_in_app_downloads_title">Stahování v aplikaci</string>
   <string name="morphe_music_in_app_downloads_summary">Stahuje zvuk v rámci YouTube Music místo otevírání externí aplikace pro stahování</string>
-  <string name="morphe_music_in_app_downloads_user_dialog_message">"Skladby se ukládají do soukromého úložiště aplikace a smažou se, pokud je YouTube Music odinstalováno.
+  <string name="morphe_music_in_app_downloads_user_dialog_message">"Stopy jsou uloženy do soukromého úložiště aplikace a budou smazány při odinstalování YouTube Music.
 
-Dokud je to zapnuté, karta Stahování zobrazuje tyto skladby místo offline knihovny Music Premium. Vypnutí obnoví kartu a stahování Premium se nikdy nedotkne."</string>
+Pokud je tato funkce zapnutá, karta Stahování zobrazuje tyto stopy místo offline knihovny Music Premium. Vypnutím této funkce se karta obnoví a stažení Premium není nijak dotčeno"</string>
   <string name="morphe_music_downloads_screen_title">Stahování</string>
   <string name="morphe_music_downloads_empty">"Žádné stažené skladby
 Stažené skladby se zobrazí zde"</string>
@@ -445,7 +445,7 @@ Přehrávání SABR (předstírání video streamů je vypnuté)"</string>
   <string name="morphe_music_scrobbling_custom_regex_title">Vlastní čištění pomocí regexu</string>
   <string name="morphe_music_scrobbling_custom_regex_summary">Zadejte vlastní regulární výraz pro odstranění dodatečného textu z názvů skladeb, interpretů nebo alb. Příklad: (?i)\\s*\\((clean|explicit)\\)</string>
   <string name="morphe_music_scrobbling_parse_title_title">Analyzovat interpreta a název skladby z názvu</string>
-  <string name="morphe_music_scrobbling_parse_title_summary">Extrahovat jméno interpreta a název skladby z názvu videa pomocí oddělovače \" - \". Užitečné pro znovu nahraný obsah, kde název kanálu může být použit jako interpret.</string>
+  <string name="morphe_music_scrobbling_parse_title_summary">Extrahuje jméno interpreta a název skladby z názvu videa pomocí oddělovače \" - \". Užitečné pro znovu nahrávaný obsah, kde může být název kanálu použit jako jméno interpreta</string>
   <string name="morphe_music_scrobbling_guess_album_title">Doplnit chybějící album</string>
   <string name="morphe_music_scrobbling_guess_album_summary">Když hudba neobsahuje album, vyhledejte ho na Last.fm, aby byl váš scrobble úplný.</string>
   <!-- 'scrobbling' must be kept untranslated -->
@@ -460,7 +460,7 @@ Pro zajištění synchronizace scrobblingu během přehrávání na pozadí se u
   <string name="morphe_music_lyrics_section_service_title">Služba pro texty písní</string>
   <string name="morphe_music_lyrics_section_overlay_title">Překryv</string>
   <string name="morphe_music_lyrics_section_sync_title">Synchronizace</string>
-  <string name="morphe_music_lyrics_source_all_disabled">Všichni poskytovatelé vypnuti – vestavěné a vložené texty.</string>
+  <string name="morphe_music_lyrics_source_all_disabled">Všichni poskytovatelé vypnuty - vestavěné texty a vložené texty</string>
   <string name="morphe_music_lyrics_source_reset_title">Obnovit výchozí pořadí poskytovatelů?</string>
   <string name="morphe_music_lyrics_source_reset_message">Obnovit výchozí pořadí priorit poskytovatelů.</string>
   <string name="morphe_music_token_dialog_get_token">Získat token</string>
@@ -473,7 +473,7 @@ Postup:
 3. Zkopírujte hodnotu „media-user-token“"</string>
   <string name="morphe_music_apple_music_token_toast_saved">Apple Music: media-user-token uložen</string>
   <string name="morphe_music_apple_music_token_toast_cleared">Apple Music: media-user-token vymazán</string>
-  <string name="morphe_music_apple_music_token_toast_invalid">Apple Music: neplatný media-user-token — zkontrolujte a zkuste to znovu</string>
+  <string name="morphe_music_apple_music_token_toast_invalid">Apple Music: neplatný media-user-token - prosím, zkontrolujte a zkuste to znovu</string>
   <string name="morphe_music_spotify_token_title">Spotify SpDc</string>
   <string name="morphe_music_spotify_token_dialog_instruction">"Vložte cookie sp_dc ze služby Spotify.
 
@@ -483,7 +483,7 @@ Postup:
 3. Zkopírujte hodnotu „sp_dc“"</string>
   <string name="morphe_music_spotify_token_toast_saved">Spotify: sp_dc […] Bez něj bude jako záložní použit Lyrically.</string>
   <string name="morphe_music_spotify_token_toast_cleared">Spotify: sp_dc vymazán</string>
-  <string name="morphe_music_spotify_token_toast_invalid">Spotify: neplatný sp_dc — zkontrolujte a zkuste to znovu</string>
+  <string name="morphe_music_spotify_token_toast_invalid">Spotify: neplatný sp_dc - prosím, zkontrolujte a zkuste to znovu</string>
   <string name="morphe_music_apple_token_optional_hint">Token Apple Music je volitelný. Bez něj se jako záložní použije Lyrically.</string>
   <string name="morphe_music_deezer_arl_title">Deezer […] Zkopírujte hodnotu \"arl\".</string>
   <string name="morphe_music_deezer_arl_dialog_instruction">"Vložte cookie arl ze služby Deezer.
@@ -494,21 +494,21 @@ Postup:
 3. Zkopírujte hodnotu „arl“"</string>
   <string name="morphe_music_deezer_arl_toast_saved">Deezer: arl uložen.</string>
   <string name="morphe_music_deezer_arl_toast_cleared">Deezer: neplatný arl. Zkuste to znovu.</string>
-  <string name="morphe_music_deezer_arl_toast_invalid">Deezer: neplatný arl — zkontrolujte a zkuste to znovu</string>
+  <string name="morphe_music_deezer_arl_toast_invalid">Deezer: neplatný arl - prosím, zkontrolujte a zkuste to znovu</string>
   <string name="morphe_music_musixmatch_token_title">Musixmatch […] Zkopírujte hodnotu uživatelského tokenu.</string>
   <string name="morphe_music_musixmatch_token_dialog_instruction">Token přidávejte pouze v případě, že používáte vlastní účet. Musí pocházet z aplikace Musixmatch pro Android: tokeny zkopírované z musixmatch.com patří ukončenému desktopovému klientovi a API je odmítá.</string>
   <string name="morphe_music_musixmatch_token_optional_hint">Musixmatch funguje i bez tokenu, takže toto pole může zůstat prázdné.</string>
   <string name="morphe_music_musixmatch_token_dialog_hint">Musixmatch: neplatný uživatelský token. Zkuste to znovu.</string>
   <string name="morphe_music_musixmatch_token_toast_saved">Musixmatch: uživatelský token uložen</string>
   <string name="morphe_music_musixmatch_token_toast_cleared">Musixmatch: uživatelský token vymazán</string>
-  <string name="morphe_music_musixmatch_token_toast_invalid">Musixmatch: neplatný uživatelský token — zkontrolujte a zkuste to znovu</string>
+  <string name="morphe_music_musixmatch_token_toast_invalid">Musixmatch: neplatný uživatelský token - prosím, zkontrolujte a zkuste to znovu</string>
   <string name="morphe_music_youtube_cookies_title">Soubory cookie YouTube</string>
   <string name="morphe_music_youtube_cookies_dialog_instruction">"Vložte […] Zkopírujte celý řetězec cookies (dvojice klíč=hodnota oddělené středníky)
 
 Požadované cookies: SID, HSID, SSID, SAPISID, __Secure-3PAPISID, __Secure-1PAPISID, LOGIN_INFO"</string>
   <string name="morphe_music_youtube_cookies_toast_saved">YouTube: cookies uloženy.</string>
   <string name="morphe_music_youtube_cookies_toast_cleared">YouTube: cookies vymazány.</string>
-  <string name="morphe_music_youtube_cookies_toast_invalid">YouTube: neplatné cookies – zkontrolujte je a zkuste to znovu.</string>
+  <string name="morphe_music_youtube_cookies_toast_invalid">YouTube: neplatné cookies - prosím, zkontrolujte a zkuste to znovu</string>
   <string name="morphe_music_lyrics_tap_to_seek_title">Klepnutím na řádek přejděte na daný čas</string>
   <string name="morphe_music_lyrics_tap_to_seek_summary">Klepnutím na řádek se přeskočí do daného okamžiku v písni</string>
   <string name="morphe_music_lyrics_show_section_title">Zobrazit štítky sekcí</string>
@@ -571,7 +571,7 @@ Požadované cookies: SID, HSID, SSID, SAPISID, __Secure-3PAPISID, __Secure-1PAP
   <string name="morphe_music_lyrics_refreshing">Obnovování</string>
   <string name="morphe_music_lyrics_refreshed">Obnoveno</string>
   <string name="morphe_music_lyrics_about_summary">"Texty písní se párují podle názvu a interpreta; neobvyklá metadata nemusí najít nic nebo špatnou verzi. Obnovením přepnete verze. Poskytovatelé označení * vyžadují token. Všichni povolení poskytovatelé nejsou vždy dotazováni v pořadí, ale reagují podle své rychlosti."</string>
-  <string name="morphe_music_lyrics_source_advice_summary">Povolte pouze poskytovatele, které používáte, nebo ponechte výchozí nastavení — neustálé požadavky mohou zahltit malé komunitní weby s texty písní</string>
+  <string name="morphe_music_lyrics_source_advice_summary">Povolte pouze poskytovatele, které používáte, nebo ponechte výchozí nastavení – neustálé požadavky mohou přetížit malé komunitní stránky s texty</string>
   <string name="morphe_music_lyrics_hide_info_title">Skrýt řádek s uvedením zdroje</string>
   <string name="morphe_music_lyrics_hide_info_summary">Skrýt řádek s uvedením zdroje zobrazený pod textem písně.</string>
   <string name="morphe_music_lyrics_swap_trans_roma_title">Prohodit překlad a romanizaci</string>
@@ -584,7 +584,7 @@ Požadované cookies: SID, HSID, SSID, SAPISID, __Secure-3PAPISID, __Secure-1PAP
   <string name="morphe_music_lyrics_use_ai_section_title">Sekce AI</string>
   <string name="morphe_music_lyrics_use_ai_section_summary">Používá se pouze v případě, že poskytovatel neposkytuje žádné popisky sekcí, jako je Refrén nebo Sloka, které poté detekuje váš model kompatibilní s OpenAI</string>
   <string name="morphe_music_lyrics_ai_config_dialog_title">Nastavení AI</string>
-  <string name="morphe_music_lyrics_ai_config_dialog_instruction">Konfigurujte koncový bod API kompatibilního s OpenAI pro překlad textů písní, romanizaci a sekce pomocí AI.</string>
+  <string name="morphe_music_lyrics_ai_config_dialog_instruction">Konfigurovat koncový bod API kompatibilní s OpenAI pro AI převod textů, transliteraci a sekce</string>
   <string name="morphe_music_lyrics_ai_config_base_url_hint">URL koncového bodu API (např. https://text.pollinations.ai/openai)</string>
   <string name="morphe_music_lyrics_ai_config_api_token_hint">API klíč (nechte prázdné pro anonymní přístup)</string>
   <string name="morphe_music_lyrics_ai_config_model_hint">Název modelu (např. openai-fast, gpt-4o-mini)</string>
@@ -594,7 +594,7 @@ Požadované cookies: SID, HSID, SSID, SAPISID, __Secure-3PAPISID, __Secure-1PAP
   <string name="morphe_music_lyrics_ai_prompt_toast_saved">Prompt uložen</string>
   <string name="morphe_music_lyrics_ai_prompt_toast_reset">Prompt resetován</string>
   <string name="morphe_music_lyrics_ai_config_toast_saved">Nastavení AI uloženo</string>
-  <string name="morphe_music_lyrics_ai_config_toast_invalid">Nepodařilo se připojit ke koncovému bodu AI. Zkontrolujte prosím svá nastavení.</string>
+  <string name="morphe_music_lyrics_ai_config_toast_invalid">Nepodařilo se připojit ke koncovému bodu AI. Zkontrolujte prosím svá nastavení</string>
   <string name="morphe_music_lyrics_ai_config_toast_reset">Nastavení AI resetováno</string>
   <string name="morphe_music_lyrics_ai_config_summary_configured">Model %1$s byl konfigurován</string>
   <string name="morphe_music_lyrics_ai_config_status_empty_url">Základní URL nemůže být prázdná</string>

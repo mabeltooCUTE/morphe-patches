@@ -41,17 +41,17 @@ Second \"item\" text"</string>
   <!-- layout.disableLayoutUpdatesPatch -->
   <string name="morphe_disable_layout_updates_title">ปิดการอัปเดตรูปแบบ</string>
   <string name="morphe_disable_layout_updates_summary">ป้องกันไม่ให้เซิร์ฟเวอร์อัปเดตเลย์เอาต์ของแอป</string>
-  <string name="morphe_disable_layout_updates_user_dialog_message">"การวางแผนแอปพลิเคชันจะกลับไปใช้แผนที่ใช้เมื่อติดตั้งครั้งแรก
+  <string name="morphe_disable_layout_updates_user_dialog_message">"เลย์เอาต์แอปพลิเคชันกลับไปใช้เลย์เอาต์ที่ใช้เมื่อติดตั้งครั้งแรก
 
-บางแผนที่ด้านเซิร์ฟเวอร์อาจไม่กลับมา
+เลย์เอาต์ด้านเซิร์ฟเวอร์บางส่วนอาจไม่กลับคืน
 
-การเปลี่ยนแปลงรวมถึง:
-• ส่วนประกอบในเมนูตัวเลือกของตัวเล่น (หรือการตั้งค่าเกี่ยวข้อง) อาจไม่ทำงาน
-• เลขกลิ้งไม่ได้รับการเคลื่อนไหว
-• แท็บคลังจะแสดง
+การเปลี่ยนแปลง ได้แก่:
+• ส่วนประกอบในเมนูฟลายเอาท์ของตัวเล่น (หรือการตั้งค่าที่เกี่ยวข้อง) อาจไม่ทำงาน
+• ตัวเลขหมุนไม่มีการเคลื่อนไหว
+• แท็บไลบรารีจะแสดง
 • ส่วนเพลงของคำอธิบายวิดีโออาจไม่ทำงาน
-• สิ่งที่แสดงในเมนูตัวเลือกของตัวเล่นไม่สามารถซ่อนได้
-• ปุ่มสลับบัญชีอาจไม่ปรากฏบนแท็บคลัง"</string>
+•ไอเท็มเมนูฟลายเอาท์ของตัวเล่นไม่สามารถซ่อนได้
+• ปุ่มสลับบัญชีอาจไม่ปรากฏบนแท็บไลบรารี"</string>
   <!-- layout.hide.general.hideLayoutComponentsPatch -->
   <string name="morphe_hide_feed_flyout_menu_title">เปิดตัวกรองเมนูแบบเลื่อนออกของฟีด</string>
   <string name="morphe_hide_feed_flyout_menu_filter_strings_title">ตัวกรองเมนูแบบเลื่อนออกของฟีด</string>
@@ -133,7 +133,7 @@ Second \"item\" text"</string>
   <!-- https://logos.fandom.com/wiki/YouTube/Yoodles -->
   <string name="morphe_hide_youtube_doodles_title">ซ่อน Doodles ของ YouTube</string>
   <string name="morphe_hide_youtube_doodles_summary">ซ่อนภาพเคลื่อนไหวตามฤดูกาลและตามเหตุการณ์บนโลโก้ YouTube</string>
-  <string name="morphe_hide_youtube_doodles_user_dialog_message">การแสดง Doodles ของ YouTube อาจทำให้เฮดเดอร์ที่กำหนดเองไม่แสดงผล</string>
+  <string name="morphe_hide_youtube_doodles_user_dialog_message">การแสดง YouTube Doodles อาจป้องกันไม่ให้ส่วนหัวที่กำหนดเองแสดง</string>
   <string name="morphe_hide_channel_bar_title">ซ่อนแถบช่อง</string>
   <string name="morphe_hide_channel_watermark_title">ซ่อนลายน้ำของช่อง</string>
   <string name="morphe_hide_chapters_timeline_button_title">ซ่อนบทและปุ่ม \'ในวิดีโอนี้\'</string>
@@ -281,7 +281,7 @@ Second \"item\" text"</string>
   <string name="morphe_hide_comments_menu_button_summary">ซ่อนปุ่มเมนู 3 จุดของความคิดเห็นแต่ละรายการ</string>
   <string name="morphe_hide_comments_preview_comment_title">ซ่อนความคิดเห็นตัวอย่าง</string>
   <string name="morphe_hide_comments_preview_comment_summary">ซ่อนตัวอย่างความคิดเห็นใต้คลิปวิดีโอ ก่อนที่จะเปิดส่วนความคิดเห็นทั้งหมด</string>
-  <string name="morphe_hide_comments_preview_comment_hidden">ความคิดเห็นถูกซ่อนโดย Morphe...</string>
+  <string name="morphe_hide_comments_preview_comment_hidden">ความคิดเห็นซ่อนโดย Morphe…</string>
   <string name="morphe_minimal_comments_button_title">เปิดใช้ปุ่มความคิดเห็นแบบมินิมอล</string>
   <string name="morphe_minimal_comments_button_summary">ซ่อนการ์ดเลื่อนและตัวเลือกหน้าซึ่งแสดงอยู่บนปุ่มความคิดเห็น</string>
   <string name="morphe_hide_comments_thanks_button_title">ซ่อนปุ่มขอบคุณ</string>
@@ -490,7 +490,7 @@ Second \"item\" text"</string>
   <string name="morphe_vot_openrouter_open_website">เปิด OpenRouter.ai</string>
   <string name="morphe_vot_openrouter_error">การแปล OpenRouter ล้มเหลว (HTTP %s)</string>
   <string name="morphe_vot_mymemory_quota_title">ถึงขีดจำกัดรายวันของ MyMemory แล้ว</string>
-  <string name="morphe_vot_mymemory_quota_next_available">พร้อมใช้งานอีกครั้งใน %s</string>
+  <string name="morphe_vot_mymemory_quota_next_available">ถัดไปที่มีอยู่ ณ %s</string>
   <string name="morphe_vot_mymemory_quota_message_no_email">คุณใช้โควต้าการแปล MyMemory ฟรีสำหรับวันนี้แล้ว (5,000 ตัวอักษร) เพิ่มอีเมล MyMemory ในการตั้งค่าเพื่อเพิ่มขีดจำกัดรายวันเป็น 50,000 ตัวอักษร หรือเปลี่ยนไปใช้บริการแปลอื่น</string>
   <string name="morphe_vot_mymemory_quota_message_with_email">คุณใช้โควต้าการแปล MyMemory สำหรับวันนี้แล้ว (50,000 ตัวอักษร) เปลี่ยนไปใช้บริการแปลอื่นหรือลองใหม่อีกครั้งในวันพรุ่งนี้</string>
   <string name="morphe_vot_mymemory_error">การแปล MyMemory ล้มเหลว (สถานะ %s)</string>
@@ -565,15 +565,18 @@ Second \"item\" text"</string>
 
 ข้อมูล: วิดีโอถัดไปในคิวจะเริ่มเล่นเฉพาะเมื่อ YouTube อยู่บนหน้าจอเท่านั้น"</string>
   <string name="morphe_local_queue_sheet_title">คิว</string>
-  <string name="morphe_local_queue_open">คิว (%d)</string>
+  <string name="morphe_local_queue_open">คิว (%s)</string>
   <string name="morphe_local_queue_clear">ล้างทั้งหมด</string>
   <string name="morphe_local_queue_empty">ไม่มีรายการในคิว</string>
   <string name="morphe_local_queue_empty_hint">ใช้เล่นถัดไปในคิวบนวิดีโอใดก็ได้</string>
   <string name="morphe_local_queue_now_playing">กำลังเล่น</string>
   <string name="morphe_local_queue_play_next">เล่นถัดไปในคิว</string>
+  <string name="morphe_local_queue_play_last">เล่นสุดท้ายในคิว</string>
   <string name="morphe_local_queue_reorder">จัดลำดับใหม่</string>
   <string name="morphe_local_queue_remove">นำออก</string>
   <string name="morphe_local_queue_added">เพิ่มลงในคิวแล้ว</string>
+  <string name="morphe_local_queue_unavailable">ไม่สามารถเพิ่มวิดีโอนี้ลงในคิวได้</string>
+  <string name="morphe_local_queue_playlist_unsupported">ไม่สามารถเพิ่มเพลย์ลิสต์ลงในคิวได้</string>
   <string name="morphe_local_queue_full">คิวเต็มแล้ว</string>
   <string name="morphe_local_queue_play_failed">ไม่สามารถเริ่มเล่นวิดีโอได้</string>
   <string name="morphe_ads_channel_whitelist_flyout_menu_title">ไวต์ลิสต์โฆษณาในเมนูแบบเลื่อนออก</string>
@@ -762,6 +765,9 @@ Second \"item\" text"</string>
   <string name="morphe_preferred_caption_language_title">ภาษาคำบรรยายที่ต้องการ</string>
   <string name="morphe_preferred_caption_language_summary">เลือกคำบรรยายที่ผู้ให้บริการจัดเตรียมไว้ก่อน จากนั้นจึงแปลเป็นภาษาที่ต้องการโดยอัตโนมัติ</string>
   <string name="morphe_preferred_caption_language_entry_off">ปิด</string>
+  <!-- layout.captions.autoTranslateCaptionsPatch -->
+  <string name="morphe_auto_translate_additional_languages_title">เพิ่มภาษาอื่น ๆ สำหรับการแปลอัตโนมัติ</string>
+  <string name="morphe_auto_translate_additional_languages_summary">เพิ่มภาษาต่าง ๆ ในเมนูการแปลอัตโนมัติ</string>
   <!-- layout.captions.captionCookiesPatch -->
   <string name="morphe_set_caption_cookies_title">ตั้งค่าคุกกี้คำบรรยาย</string>
   <string name="morphe_set_caption_cookies_summary">"แก้ไขบั๊ก YouTube เริ่มต้นที่คำบรรยายแปลอัตโนมัติอาจไม่พร้อมใช้งานเนื่องจากคุกกี้ที่ขาดหายไป
@@ -801,9 +807,9 @@ Second \"item\" text"</string>
   <string name="morphe_hide_navigation_button_labels_title">ซ่อนป้ายกำกับปุ่มนำทาง</string>
   <string name="morphe_hide_navigation_new_content_dot_title">ซ่อนจุดเนื้อหาใหม่</string>
   <string name="morphe_hide_navigation_bar_title">ซ่อนแถบนำทาง</string>
-  <string name="morphe_hide_navigation_bar_user_dialog_message">"สิ่งนี้จะซ่อนแถบนำทางอย่างสมบูรณ์ รวมถึงแท็บ 'คุณ'
+  <string name="morphe_hide_navigation_bar_user_dialog_message">"สิ่งนี้จะซ่อนแถบนำทางทั้งหมด รวมถึงแท็บ 'คุณ'
 
-หากต้องการเข้าถึงการตั้งค่า ให้เปิดใช้งานปุ่มการตั้งค่าผ่านทาง ทั่วไป → แถบเครื่องมือ → แสดงการตั้งค่า"</string>
+เพื่อเข้าถึงการตั้งค่า ให้เปิดใช้งานปุ่มการตั้งค่าผ่านทั่วไป → แถรเครื่องมือ → แสดงการตั้งค่า"</string>
   <string name="morphe_narrow_navigation_buttons_title">เปิดใช้งานปุ่มนำทางที่แคบ</string>
   <string name="morphe_narrow_navigation_buttons_summary">ทำให้แถบนำทางทึบแสงอย่างสมบูรณ์ในโหมดสว่าง</string>
   <string name="morphe_disable_icon_only_navigation_buttons_title">ปิดใช้งานปุ่มนำทางที่ไม่มีป้ายกำกับ</string>
@@ -1041,7 +1047,7 @@ Second \"item\" text"</string>
   <string name="morphe_tablet_layout_in_player_summary">"คืนรูปแบบผู้เล่นแบบเก่า
 
 ข้อจำกัด: หากปิด 'คืนแถบการทำงานของวิดีโอแบบเก่า' การแสดงผล 'วิดีโอเพิ่มเติม' อาจใช้งานไม่ได้"</string>
-  <string name="morphe_tablet_layout_in_player_user_dialog_message">การเปิดใช้งานสิ่งนี้อาจทำให้ฟีเจอร์เลย์เอาต์บางอย่างของเครื่องเล่นเสียหาย เช่น ส่วนความคิดเห็นหรือ \'วิดีโอเพิ่มเติม\' ที่แสดงใต้เครื่องเล่น</string>
+  <string name="morphe_tablet_layout_in_player_user_dialog_message">การเปิดใช้นี้อาจทำให้บางฟีเจอร์เลย์เอาต์ของผู้เล่นเสีย เช่น ส่วนความคิดเห็นหรือ\'วิดีโอเพิ่มเติม\'ที่แสดงด้านล่างตัวเล่น</string>
   <!-- misc.spoof.appversion.spoofAppVersionPatch -->
   <string name="morphe_spoof_app_version_target_entry_21_11">21.11.48 - กู้คืนพฤติกรรมคำบรรยายแบบเดิม</string>
   <string name="morphe_spoof_app_version_target_entry_20_39">20.39.41 - คืนค่าไอคอนเครื่องเล่น Shorts เก่า</string>
@@ -1106,6 +1112,9 @@ Second \"item\" text"</string>
   <!-- layout.feedrefresh.disableAutoFeedRefreshPatch -->
   <string name="morphe_disable_auto_feed_refresh_title">ปิดการรีเฟรชฟีดอัตโนมัติ</string>
   <string name="morphe_disable_auto_feed_refresh_summary">ป้องกันไม่ให้ฟีดรีเฟรชโดยอัตโนมัติหลังจากที่ล้าสมัย</string>
+  <!-- layout.feedcards.feedCardLayoutPatch -->
+  <string name="morphe_feed_card_layout_title">เลย์เอาต์การ์ดฟีด</string>
+  <string name="morphe_feed_card_layout_comments">ความคิดเห็น</string>
   <!-- layout.miniplayer.miniplayerPatch -->
   <string name="morphe_miniplayer_disable_resuming_title">ปิดใช้งานการกลับมาเล่นต่อของมินิเพลเยอร์</string>
   <string name="morphe_miniplayer_disable_resuming_summary">ปิดใช้งานเครื่องเล่นขนาดเล็ก \'ดูต่อ\' ซึ่งเป็นคุณสมบัติพิเศษสำหรับ YouTube Premium ที่ปรากฏขึ้นเมื่อเริ่มต้นแอป</string>
@@ -1220,7 +1229,7 @@ Second \"item\" text"</string>
   <!-- misc.dimensions.spoof.spoofDeviceDimensionsPatch -->
   <string name="morphe_spoof_device_dimensions_title">ปลอมแปลงมิติของอุปกรณ์</string>
   <string name="morphe_spoof_device_dimensions_summary">การเปิดใช้งานสิ่งนี้สามารถปลดล็อกคุณภาพวิดีโอที่สูงขึ้น</string>
-  <string name="morphe_spoof_device_dimensions_user_dialog_message">การเปิดใช้งานนี้สามารถทำให้การเล่นวิดีโอสะดุด อายุการใช้งานแบตเตอรี่แย่ลง และผลข้างเคียงที่ไม่ทราบสาเหตุ</string>
+  <string name="morphe_spoof_device_dimensions_user_dialog_message">การเปิดใช้งานนี้อาจทำให้เกิดการเล่นวิดีโอสะดุด อายุการใช้งานแบตเตอรี่แย่ลง และผลข้างเคียงที่ไม่ทราบสาเหตุ</string>
   <!-- misc.hapticfeedback.disableHapticFeedbackPatch -->
   <string name="morphe_disable_haptic_feedback_title">การตอบสนองแบบสัมผัส</string>
   <string name="morphe_disable_haptic_feedback_summary">เลือกปฏิสัมพันธ์ที่จะกระตุ้นการสั่นสะเทือนของอุปกรณ์</string>
@@ -1393,7 +1402,7 @@ AVC (H.264)
   <string name="morphe_series_tracker_ui_clear_all_local_progress">ล้างความคืบหน้าในพื้นที่ทั้งหมด</string>
   <string name="morphe_series_tracker_ui_clear_history">ล้างประวัติ</string>
   <string name="morphe_series_tracker_clear_progress_title">ล้างความคืบหน้าในพื้นที่ทั้งหมด?</string>
-  <string name="morphe_series_tracker_clear_progress_message">สิ่งนี้จะล้างตำแหน่ง, การดูแล้วบังคับ และการเลือกดำเนินการต่อสำหรับทุกวิดีโอ ซีรี่ส์ที่บันทึกและแคตตาล็อกจะคงอยู่ การเล่นใหม่จะถูกบันทึกหากเปิดใช้งานการบันทึก</string>
+  <string name="morphe_series_tracker_clear_progress_message">สิ่งนี้จะล้างตำแหน่ง การทับซ้อนสิ่งที่รับชมแล้ว และการเลือกรับฟังต่อสำหรับทุกวิดีโอ ซีรีส์ที่บันทึกไว้และแคตตาล็อกของพวกมันจะยังคงอยู่ การเล่นใหม่จะถูกบันทึกหากมีการเปิดใช้งานการบันทึก</string>
   <string name="morphe_series_tracker_ui_mark_watched">ทำเครื่องหมายว่าดูแล้ว</string>
   <string name="morphe_series_tracker_ui_mark_unwatched">ทำเครื่องหมายว่ายังไม่ได้ดู</string>
   <string name="morphe_series_tracker_ui_use_automatic_status">ใช้สถานะอัตโนมัติ</string>
@@ -1412,36 +1421,34 @@ AVC (H.264)
   <string name="morphe_series_tracker_ui_subscriptions">การติดตาม</string>
   <string name="morphe_series_tracker_ui_notifications">การแจ้งเตือน</string>
   <string name="morphe_series_tracker_ui_loading_saved_series">กำลังโหลดซีรี่ส์ที่บันทึก...</string>
-  <string name="morphe_series_tracker_empty_library">ติดตามเพลย์ลิสต์เพื่อดูตามตอน.</string>
+  <string name="morphe_series_tracker_empty_library">ติดตามเพลย์ลิสต์เพื่อติดตามตอนต่างๆ ของมัน</string>
   <string name="morphe_series_tracker_ui_playlist_bookmark">บุ๊กมาร์กเพลย์ลิสต์</string>
   <string name="morphe_series_tracker_ui_refreshing_episodes">กำลังรีเฟรชตอน...</string>
   <string name="morphe_series_tracker_ui_all_series">ทุกซีรี่ส์</string>
   <string name="morphe_series_tracker_watched">ดูแล้ว</string>
   <string name="morphe_series_tracker_ui_loading_episodes">กำลังโหลดตอน...</string>
   <string name="morphe_series_tracker_ui_more_options">ตัวเลือกเพิ่มเติม</string>
-  <string name="morphe_series_tracker_record_consent">"บันทึกความคืบหน้าเฉพาะสำหรับซีรี่ส์ที่บันทึกและวิดีโอที่บุ๊กมาร์กไว้เท่านั้น
+  <string name="morphe_series_tracker_record_consent">"บันทึกความคืบหน้าเฉพาะสำหรับซีรีส์ที่บันทึกไว้และวิดีโอที่บุ๊กมาร์กไว้เท่านั้น
 
-ไลบรารีนี้จัดเก็บไว้ในอุปกรณ์นี้และแชร์ผ่านบัญชี YouTube การควบคุมประวัติของ YouTube จะไม่ส่งผลต่อมัน ใช้ ซีรีส์ → เพิ่มเติม → ล้างความคืบหน้าในพื้นที่ เพื่อลบข้อมูลออก
+ไลบรารีนี้เก็บไว้ในอุปกรณ์นี้และแชร์ข้ามบัญชี YouTube การควบคุมประวัติหยุดชั่วคราวและล้างของ YouTube ไม่เปลี่ยนแปลงมัน ใช้ชุดคำสั่งซีรี่ส์ → อื่นๆ → ล้างความคืบหน้าในท้องถิ่นเพื่อลบมันออก
 
-การบันทึกอัตโนมัติจะหยุดในโหมดไม่ระบุตัวตน เมื่อนิติบุคคลของบัญชีไม่มีอยู่ในขณะนั้น หรือเมื่อคุณสลับไปใช้อีกบัญชี ให้เปิดใช้งานการติดตามอีกครั้งเพื่อใช้งานกับบัญชียันนั้น"</string>
-  <string name="morphe_series_tracker_identity_unavailable">ไม่สามารถเปิดใช้งานการติดตามในโหมดไม่ระบุตัวตนหรือก่อนที่ YouTube โหลดสถานะบัญชีปัจจุบัน กลับไปที่ โฮม และลองใหม่อีกครั้ง ไม่จำเป็นต้องลงชื่อเข้าใช้</string>
+การบันทึกอัตโนมัติจะหยุดในการทำงานส่วนตัว เมื่อไม่พร้อมใช้งานตัวตนบัญชี หรือเมื่อคุณสลับไปใช้บัญชีอื่น เปิดใช้งานการติดตามอีกครั้งเพื่อให้ใช้งานได้กับบัญชีนั้น"</string>
+  <string name="morphe_series_tracker_identity_unavailable">ไม่สามารถเปิดใช้งานการติดตามในการทำงานส่วนตัวหรือก่อนที่ YouTube โหลดสถานะบัญชีปัจจุบันได้ กลับไปที่โฮมเพจและลองอีกครั้ง ไม่ต้องเข้าสู่ระบบ</string>
   <string name="morphe_series_tracker_enable">เปิดใช้งานการติดตามแบบโลคัล</string>
   <string name="morphe_series_tracker_tracking_paused">การบันทึกความคืบหน้าถูกปิด</string>
   <string name="morphe_series_tracker_resume_at">ดำเนินการต่อที่ %1$s</string>
-  <string name="morphe_series_tracker_watched_count">%1$d / %2$d ตอนดูแล้ว</string>
-  <string name="morphe_series_tracker_episode_position">ตอนที่ %1$d · %2$s</string>
-  <string name="morphe_series_tracker_episode_range">ตอนที่ %1$d–%2$d จาก %3$d</string>
-  <string name="morphe_series_tracker_catalog_unavailable">รีเฟรชเพื่อลองโหลดตอน เพลย์ลิสต์ส่วนตัวต้องการสิทธิ์เข้าถึงจากบัญชี; บุ๊กมาร์กของพวกเขายังคงเปิดใน YouTube อยู่</string>
+  <string name="morphe_series_tracker_watched_count">%1$s / %2$s ตอนดูแล้ว</string>
+  <string name="morphe_series_tracker_episode_position">ตอน %1$s · %2$s</string>
+  <string name="morphe_series_tracker_episode_range">ตอน %1$s-%2$s จาก %3$s</string>
+  <string name="morphe_series_tracker_catalog_unavailable">รีเฟรชเพื่อพยายามโหลดตอน รายการเล่นส่วนตัวต้องการการเข้าถึงบัญชี; บู๊คมาร์คของพวกเขายังคงเปิดใน YouTube</string>
   <string name="morphe_series_tracker_open_failed">YouTube ไม่สามารถเปิดตอนนี้ได้</string>
   <string name="morphe_series_tracker_playlist_failed">YouTube ไม่สามารถเปิดเพลย์ลิสต์นี้ได้</string>
-  <string name="morphe_series_tracker_plan_open">บุ๊กมาร์กเพลย์ลิสต์</string>
   <string name="morphe_series_tracker_plan_changed">เลือกตอน</string>
   <string name="morphe_series_tracker_plan_caught_up">ติดตามทัน</string>
   <string name="morphe_series_tracker_plan_none">ไม่มีตอนที่เล่นได้</string>
   <string name="morphe_series_tracker_saved_position">วิดีโอที่บันทึก · %1$s</string>
   <string name="morphe_series_tracker_follow">ติดตามซีรี่ส์</string>
   <string name="morphe_series_tracker_view_series">ดูซีรี่ส์</string>
-  <string name="morphe_series_tracker_add_icon">ติดตามซีรี่ส์</string>
   <string name="morphe_series_tracker_continue">ดำเนินการต่อ</string>
   <string name="morphe_series_tracker_start_here">เริ่มต้นที่นี่</string>
   <string name="morphe_series_tracker_start_saved">บันทึกจุดเริ่มต้นแล้ว</string>
@@ -1450,27 +1457,27 @@ AVC (H.264)
   <string name="morphe_series_tracker_undo">ย้อนกลับ</string>
   <string name="morphe_series_tracker_enable_short">เปิดใช้งาน</string>
   <string name="morphe_series_tracker_new_episode">1 ตอนใหม่</string>
-  <string name="morphe_series_tracker_new_episodes">ตอนใหม่ %1$d ตอน</string>
+  <string name="morphe_series_tracker_new_episodes">%1$s ตอนใหม่</string>
   <string name="morphe_series_tracker_record_short">บันทึกความคืบหน้าบนอุปกรณ์นี้</string>
-  <string name="morphe_series_tracker_follow_consent">"ซีรี่ส์และความคืบหน้าของคุณยังคงอยู่บนอุปกรณ์นี้ แชร์ผ่านบัญชี YouTube การควบคุมประวัติของ YouTube จะไม่ส่งผลต่อ它们 ล้างความคืบหน้าจากเมนู ซีรีส์
+  <string name="morphe_series_tracker_follow_consent">"ซีรีส์และความคืบหน้าของคุณอยู่บนอุปกรณ์นี้ แชร์ข้ามบัญชี YouTube การควบคุมประวัติ YouTube ไม่เปลี่ยนแปลงมัน ล้างความคืบหน้าจากเมนูซีรีส์
 
-การบันทึกอัตโนมัติเป็นทางเลือก จะหยุดในโหมดไม่ระบุตัวตนหรือเมื่อบัญชีเปลี่ยน"</string>
-  <string name="morphe_series_tracker_follow_unavailable">ไม่สามารถโหลดตอนได้ คุณสามารถบันทึกเพลย์ลิสต์เป็นบุ๊กมาร์กได้</string>
-  <string name="morphe_series_tracker_error_pending_full">มีการเปลี่ยนแปลงที่ยังไม่ได้บันทึกมากเกินไป ลองบันทึกอีกครั้งก่อน</string>
-  <string name="morphe_series_tracker_error_storage_busy">กำลังบันทึก Busy ลองอีกครั้ง</string>
-  <string name="morphe_series_tracker_error_catalog_busy">กำลังโหลดตอน Busy ลองอีกครั้ง</string>
-  <string name="morphe_series_tracker_error_storage_unavailable">พื้นที่จัดเก็บไม่มีข้อมูล ข้อมูลที่บันทึกไว้ของคุณได้รับการรักษาไว้</string>
-  <string name="morphe_series_tracker_error_storage_save">ไม่สามารถบันทึกการเปลี่ยนแปลง ลองบันทึกอีกครั้งก่อนปิด YouTube</string>
-  <string name="morphe_series_tracker_error_conflict">ซีรี่ส์นี้บันทึกอยู่แล้ว หรือเพลย์ลิสต์เปลี่ยน เปิดอีกครั้ง</string>
-  <string name="morphe_series_tracker_error_series_changed">ซีรี่ส์นี้เปลี่ยนหรือถูกลบ เปิดไลบรารีอีกครั้ง</string>
+การบันทึกอัตโนมัติเป็นทางเลือก หยุดในการทำงานส่วนตัวหรือเมื่อบัญชีเปลี่ยน"</string>
+  <string name="morphe_series_tracker_follow_unavailable">ไม่สามารถโหลดตอน คุณอาจบันทึกเพลย์ลิสต์เป็นบู๊คมาร์ค</string>
+  <string name="morphe_series_tracker_error_pending_full">มีการเปลี่ยนแปลงที่ยังไม่ได้บันทึกจำนวนมาก ลองบันทึกอีกครั้งก่อน</string>
+  <string name="morphe_series_tracker_error_storage_busy">กำลังบันทึกbusy ลองอีกครั้ง</string>
+  <string name="morphe_series_tracker_error_catalog_busy">กำลังโหลดตอนbusy ลองอีกครั้ง</string>
+  <string name="morphe_series_tracker_error_storage_unavailable">จัดเก็บข้อมูลไม่พร้อมใช้งาน ข้อมูลที่บันทึกไว้ของคุณถูกเก็บรักษาไว้</string>
+  <string name="morphe_series_tracker_error_storage_save">ไม่สามารถบันทึกการเปลี่ยนแปลง ลองบันทึกก่อนปิด YouTube</string>
+  <string name="morphe_series_tracker_error_conflict">ซีรีส์นี้อยู่ในการบันทึกแล้ว หรือเพลย์ลิสต์ของมันเปลี่ยน เปิดใช้อีกครั้ง</string>
+  <string name="morphe_series_tracker_error_series_changed">ซีรีส์นี้เปลี่ยนหรือถูกลบ เปิดไลบรารีอีกครั้ง</string>
   <string name="morphe_series_tracker_error_playlist_changed">เพลย์ลิสต์เปลี่ยน เลือกตอนอีกครั้ง</string>
-  <string name="morphe_series_tracker_error_episode_unavailable">ตอนนี้อาจจะไม่ได้เลือกอีกต่อไป</string>
-  <string name="morphe_series_tracker_error_name_required">ป้อนชื่อซีรี่ส์</string>
+  <string name="morphe_series_tracker_error_episode_unavailable">ตอนนี้ไม่พร้อมเลือกอันอื่น</string>
+  <string name="morphe_series_tracker_error_name_required">ป้อนชื่อซีรีส์</string>
   <string name="morphe_series_tracker_error_playlist_input">ป้อนลิงก์เพลย์ลิสต์ YouTube หรือ ID เพลย์ลิสต์</string>
-  <string name="morphe_series_tracker_error_retry_later">กรุณารอก่อนที่จะรีเฟรชอีกครั้ง</string>
-  <string name="morphe_series_tracker_error_catalog_unavailable">ไม่สามารถโหลดตอนได้ ลองอีกครั้งภายหลัง</string>
-  <string name="morphe_series_tracker_error_operation">ไม่สามารถดำเนินการเปลี่ยนแปลงได้ ลองอีกครั้ง</string>
-  <string name="morphe_series_tracker_error_resume">ไม่สามารถยืนยันการดำเนินการต่อได้ ตรวจสอบผู้เล่นและลองอีกครั้ง</string>
+  <string name="morphe_series_tracker_error_retry_later">กรุณารอก่อนรีเฟรชอีกครั้ง</string>
+  <string name="morphe_series_tracker_error_catalog_unavailable">ไม่สามารถโหลดตอน ลองอีกครั้งภายหลัง</string>
+  <string name="morphe_series_tracker_error_operation">ไม่สามารถเสร็จสิ้นการเปลี่ยนแปลง ลองอีกครั้ง</string>
+  <string name="morphe_series_tracker_error_resume">ไม่สามารถยืนยันการรับฟังต่อ ตรวจสอบตัวเล่นและลองอีกครั้ง</string>
   <string name="morphe_series_tracker_followed">ติดตามซีรี่ส์</string>
   <string name="morphe_series_tracker_video_not_in_playlist">วิดีโอนี้ไม่มีอยู่ในเพลย์ลิสต์นี้</string>
   <string name="morphe_series_tracker_finding_playlists">กำลังค้นหาเพลย์ลิสต์...</string>
@@ -1483,38 +1490,36 @@ AVC (H.264)
   <string name="morphe_series_tracker_episode_order">ลำดับตอน</string>
   <string name="morphe_series_tracker_playlist_order">ลำดับเพลย์ลิสต์</string>
   <string name="morphe_series_tracker_reverse_order">กลับลำดับเพลย์ลิสต์</string>
-  <string name="morphe_series_tracker_view_count_large">การดู %1$s ครั้ง</string>
   <string name="morphe_series_tracker_view_count">การดู %1$s ครั้ง</string>
   <string name="morphe_series_tracker_view_count_one">การดู <b>%1$s</b> ครั้ง</string>
   <string name="morphe_series_tracker_completion_title">ทำเครื่องหมายตอนว่าดูแล้ว</string>
-  <string name="morphe_series_tracker_completion_summary">อย่างน้อย %1$d%% ดูแล้วโดยมีเวลาคงเหลือสูงสุด 90 วินาที หรือเหลือ %2$d วินาที</string>
-  <string name="morphe_series_tracker_completion_explanation">ทำเครื่องหมายตอนว่าดูแล้วอัตโนมัติหลังจากเกณฑ์ใดเกณฑ์หนึ่ง กฎร้อยละยังจำเป็นต้องมีเวลาคงเหลือไม่เกิน 90 วินาที ดังนั้นช่วงปลายของตอนยาวจึงไม่ถูกข้าม กฎเวลาที่เหลือใช้กับวิดีโอที่ยาวกว่าหนึ่งนาที; ตั้งค่าเป็น 0 เพื่อปิดใช้งาน การเปลี่ยนแปลงจะมีผลกับการอัปเดตความคืบหน้าในอนาคต ตัวเลือกการทำเครื่องหมายว่าดูแล้ว/ยังไม่ได้ดูด้วยตนเองจะถูกเก็บรักษาไว้</string>
-  <string name="morphe_series_tracker_completion_percent">เปอร์เซ็นต์ที่ดูแล้ว (1–100)</string>
-  <string name="morphe_series_tracker_completion_seconds">วินาทีที่เหลือ (0–300; 0 ปิดการใช้งาน)</string>
-  <string name="morphe_series_tracker_completion_save">บันทึก</string>
-  <string name="morphe_series_tracker_completion_range">ป้อนค่าระหว่าง %1$d ถึง %2$d</string>
+  <string name="morphe_series_tracker_completion_summary">อย่างน้อย %1$s%% ดูแล้วเหลือเวลาสูงสุด 90 วินาที หรือเหลือ %2$s วินาที</string>
+  <string name="morphe_series_tracker_completion_explanation">ทำเครื่องหมายตอนว่าดูแล้วโดยอัตโนมัติหลังจากเกณฑ์ใดเกณฑ์หนึ่ง กฎเปอร์เซ็นต์ยังต้องมีเวลาเหลือไม่เกิน 90 วินาที ดังนั้นช่วงท้ายของตอนยาวจะไม่ถูกข้าม กฎเวลาคงเหลือใช้กับวิดีโอยาวกว่าหนึ่งนาที ตั้งเป็น 0 เพื่อปิดใช้งาน การเปลี่ยนแปลงจะมีผลกับการอัปเดตความคืบหน้าในอนาคต ตัวเลือกการดูแล้ว/ดูยังไม่ดูโดยแมนนวลจะถูกเก็บรักษาไว้</string>
+  <string name="morphe_series_tracker_completion_percent">เปอร์เซ็นต์ที่ดูแล้ว (1-100)</string>
+  <string name="morphe_series_tracker_completion_seconds">วินาทีที่เหลือ (0-300; 0 ปิดใช้งาน)</string>
+  <string name="morphe_series_tracker_completion_range">ป้อนค่าจาก %1$s ถึง %2$s</string>
   <string name="morphe_series_tracker_youtube_progress_title">ใช้ความคืบหน้าของ YouTube</string>
   <string name="morphe_series_tracker_youtube_progress_summary">หยิบขึ้นมาซีรี่ส์ที่ติดตามหลังจากดูบนอุปกรณ์อื่น</string>
-  <string name="morphe_series_tracker_sync_consent">อ่านสถานะการดูและตำแหน่งการดำเนินการต่อสำหรับซีรี่ส์ที่ติดตามจากบัญชี YouTube ปัจจุบัน ตอนที่เหมาะสมจะถูกบันทึกลงในโทรศัพท์นี้เท่านั้น การตรวจสอบดำเนินการในขณะที่ไลบรารีซีรี่ส์เปิดอยู่และก่อนหน้า ดำเนินการ ต้องเปิดใช้งานประวัติของ YouTube บนอุปกรณ์อื่นๆ ของคุณ</string>
+  <string name="morphe_series_tracker_sync_consent">อ่านสถานะการดูแล้วและตำแหน่งรับฟังต่อสำหรับซีรีส์ที่ติดตามของคุณจากบัญชี YouTube ปัจจุบัน บันทึกเฉพาะตอนที่ตรงกันบนโทรศัพท์นี้ การตรวจสอบจะดำเนินการในขณะที่ไลบรารีซีรีส์เปิดอยู่และก่อนต่อเนื่อง ต้องเปิดใช้งานประวัติ YouTube บนอุปกรณ์อื่นของคุณ</string>
   <string name="morphe_series_tracker_sync_checking">กำลังตรวจสอบความคืบหน้าของ YouTube...</string>
-  <string name="morphe_series_tracker_sync_failed">ความคืบหน้าของ YouTube ไม่มีข้อมูล กำลังใช้ความคืบหน้าของที่บันทึกไว้</string>
-  <string name="morphe_series_tracker_sync_partial">ความคืบหน้าบางส่วนจาก YouTube ไม่มีข้อมูล ตำแหน่งที่บันทึกไว้ได้รับการรักษาไว้</string>
+  <string name="morphe_series_tracker_sync_failed">ความคืบหน้า YouTube ไม่พร้อม ใช้ความคืบหน้าที่บันทึกไว้</string>
+  <string name="morphe_series_tracker_sync_partial">ความคืบหน้าบางส่วนจาก YouTube ไม่พร้อม ตำแหน่งที่บันทึกไว้ถูกเก็บรักษาไว้</string>
   <string name="morphe_series_tracker_backup_title">สำรองคืนและฟื้นฟู</string>
   <string name="morphe_series_tracker_backup_summary">บันทึกไลบรารีซีรี่ส์ของคุณไปยังไฟล์หรือคืนค่าการสำรอง</string>
-  <string name="morphe_series_tracker_backup_explanation">บันทึกซีรี่ส์ที่ติดตาม ตำแหน่งตอนและการตัดสินใจดูแล้ว การบันทึกและการอนุญาตความคืบหน้าของ YouTube จะไม่รวมอยู่ด้วย</string>
+  <string name="morphe_series_tracker_backup_explanation">บันทึกซีรีส์ที่ติดตาม ตำแหน่งตอนและการเลือกดูแล้ว ไม่รวมการบันทึกและการอนุญาตความคืบหน้า YouTube</string>
   <string name="morphe_series_tracker_backup_save">บันทึกการสำรอง</string>
   <string name="morphe_series_tracker_backup_restore">คืนค่าการสำรอง</string>
-  <string name="morphe_series_tracker_backup_preview">เพิ่ม %1$d ซีรี่ส์ ซีรี่ส์ %2$d ที่อยู่ในไลบรารีของคุณแล้วจะถูกเก็บไว้ ความคืบหน้าของวิดีโอที่มีอยู่ได้รับการรักษาไว้</string>
+  <string name="morphe_series_tracker_backup_preview">เพิ่ม %1$s ซีรีส์ ซีรีส์ %2$s ที่มีอยู่แล้วในไลบรารีของคุณจะถูกเก็บรักษาไว้ ความคืบหน้าวิดีโอที่มีอยู่จะถูกเก็บรักษาไว้</string>
   <string name="morphe_series_tracker_backup_saved">บันทึกสำรองซีรี่ส์แล้ว</string>
-  <string name="morphe_series_tracker_backup_restored">คืนค่าแล้ว %1$d ซีรี่ส์</string>
-  <string name="morphe_series_tracker_error_backup_invalid">ไฟล์นี้ไม่ใช่การสำรองซีรี่ส์ที่รองรับ หรือมีขนาดใหญ่เกินไป ไลบรารีของคุณไม่มีการเปลี่ยนแปลง</string>
-  <string name="morphe_series_tracker_error_backup_write">ไม่สามารถบันทึกการสำรอง ลองตำแหน่งอื่น</string>
+  <string name="morphe_series_tracker_backup_restored">กู้คืนซีรีส์ %1$s แล้ว</string>
+  <string name="morphe_series_tracker_error_backup_invalid">ไฟล์นี้ไม่ใช่การสำรองข้อมูลซีรีส์ที่รองรับ หรือมีขนาดใหญ่เกินไป ไลบรารีของคุณไม่ได้รับการเปลี่ยนแปลง</string>
+  <string name="morphe_series_tracker_error_backup_write">ไม่สามารถบันทึกการสำรองข้อมูล ลองตำแหน่งอื่น</string>
   <string name="morphe_series_tracker_removed">ซีรี่ส์ถูกลบแล้ว</string>
-  <string name="morphe_series_tracker_recovery_duplicate">ตอนนี้อาจปรากฏมากกว่าหนึ่งครั้ง เลือกว่าจะดำเนินการต่อจากอันไหน</string>
-  <string name="morphe_series_tracker_recovery_missing">ตอนที่คุณบันทึกไว้ไม่ได้อยู่ในเพลย์ลิสต์นี้แล้ว ตำแหน่งที่บันทึกไว้ของคุณได้รับการรักษาไว้</string>
-  <string name="morphe_series_tracker_recovery_continue">ดำเนินการต่อด้วยตอนที่ %1$d · %2$s</string>
-  <string name="morphe_series_tracker_recovery_choose">คุณสามารถเลือกตอนใดก็ได้ด้านล่าง ตอนก่อนหน้านี้จะไม่มีการเปลี่ยนแปลง</string>
-  <string name="morphe_series_tracker_playback_changed">เพลย์ลิสต์นี้เปลี่ยน เปิดซีรี่ส์เพื่อเลือกว่าจะดำเนินการต่อตรงไหน</string>
+  <string name="morphe_series_tracker_recovery_duplicate">ตอนนี้ปรากฏมากกว่าหนึ่งครั้ง เลือกอันที่จะดำเนินการต่อ</string>
+  <string name="morphe_series_tracker_recovery_missing">ตอนที่บันทึกไว้ของคุณไม่มีอยู่ในเพลย์ลิสต์นี้ ตำแหน่งที่บันทึกไว้ของคุณถูกเก็บรักษาไว้</string>
+  <string name="morphe_series_tracker_recovery_continue">ดำเนินการต่อด้วยตอน %1$s · %2$s</string>
+  <string name="morphe_series_tracker_recovery_choose">คุณสามารถเลือกตอนใต่ต่อไปนี้ก็ได้ ตอนก่อนหน้าไม่เปลี่ยนแปลง</string>
+  <string name="morphe_series_tracker_playback_changed">เพลย์ลิสต์นี้เปลี่ยน เปิดซีรีส์เพื่อเลือกว่าจะดำเนินการต่อที่ไหน</string>
   <string name="morphe_series_tracker_playback_boundary">ไม่มีตอนอีกแล้วในทิศทางนี้</string>
   <string name="morphe_series_tracker_continue_series">ดำเนินการต่อ %1$s</string>
   <string name="morphe_series_tracker_search_series">ค้นหาซีรี่ส์</string>
